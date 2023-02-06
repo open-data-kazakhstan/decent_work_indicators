@@ -1,0 +1,55 @@
+{
+  "bytes": 149541,
+  "count_of_rows": 1000,
+  "hash": "09106db21624afbaf755948685951bc7",
+  "name": "decent-work-indicators",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 149541,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "61c90498e30df3c5fbbb56f1a3b77bda",
+      "name": "decent-work-indicators",
+      "path": "data/decent-work-indicators.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "segment",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "indicators",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Decent work indicators in Kazakhstan by segment."
+}
